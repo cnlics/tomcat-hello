@@ -1,0 +1,6 @@
+<Context>
+  <Resource name="jdbc/HelloDB" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="java" password="java" driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://mysql:3306/hello"/>
+</Context>
